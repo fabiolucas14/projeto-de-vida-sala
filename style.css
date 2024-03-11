@@ -16,6 +16,10 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+}
 
-
+.titulo-principal {
+    text-align: left;
+    font-size: 32px;
+    width: 100%;
 }
