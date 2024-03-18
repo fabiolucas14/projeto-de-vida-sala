@@ -51,6 +51,9 @@ body{
 
 }
 
+.botao:first-child {
+    border-radius: 40px;
+}
 .botoes {
     display: block; 
 }
@@ -59,5 +62,4 @@ body{
     display: flex;
    } 
 }
-    
-}
+
