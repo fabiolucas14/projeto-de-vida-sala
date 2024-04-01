@@ -6,6 +6,7 @@
     --botao-ativo :#a23a98;
     --branco:#ffffff;
     --cor-letra: #ca1561;
+    --sublinhado:#f62cca;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -56,6 +57,10 @@ body{
 }
 .botoes {
     display: block; 
+}
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--sublinhado);
 }
 @media screen and (min-width: 768px) {
    .botoes{
